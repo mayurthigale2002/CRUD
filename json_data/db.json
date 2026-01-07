@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "taskTitle": "Design Dashboard UI",
+      "taskDescription": "Create responsive dashboard layout",
+      "taskStatus": "Pending",
+      "priority": "High",
+      "dueDate": "2026-01-20"
+    }
+  ]
+}
