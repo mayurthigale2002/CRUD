@@ -19,7 +19,7 @@ const TaskTable = () => {
 
       const deleteTask = async (id) => {
         try {
-          await axios.delete(`${API_URL}/${id}`);
+          await axios.delete(`${'http://localhost:3000/tasks'}/${id}`);
           fetchTasks();
         } catch (error) {
           console.error("Error deleting task", error);
